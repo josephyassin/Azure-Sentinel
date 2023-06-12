@@ -1,12 +1,9 @@
 ## Integrate Azure Data Explorer (ADX) for long-term log retention
-**Author : Sreedhar Ande**
+
 
 Azure Data Explorer (ADX) is a big data analytics platform that is highly optimized for log and data analytics. Since ADX uses Kusto Query Language (KQL) as its query language, it's an excellent cost-effective alternative for long term Azure Sentinel data storage. Using Azure Data Explorer for your data storage enables you to run cross-platform queries and visualize data across both ADX and Azure Sentinel.
 
 For more information, see the Azure Data Explorer [documentation](https://docs.microsoft.com/azure/sentinel/store-logs-in-azure-data-explorer)
-
-To learn about architectural options please refer to my colleague's [Javier Soriano](https://github.com/javiersoriano) excellent [Blog](https://techcommunity.microsoft.com/t5/azure-sentinel/using-azure-data-explorer-for-long-term-retention-of-azure/ba-p/1883947)  
-
 ## Prerequisites
 1. **Create an ADX Cluster in the same region as your Log Analytics Workspace**  
 	https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal
